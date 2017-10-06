@@ -60,4 +60,9 @@ hs_err_pid*
 log/
 target/
 
+.mvn/wrapper/
+mvnw
+mvnw.cmd
+
 *.properties
+src/test/
