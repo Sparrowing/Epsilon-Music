@@ -1,4 +1,4 @@
-package com.sparrowing.epsilonmusic;
+package com.sparrowing.epsilon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
