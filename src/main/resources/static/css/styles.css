@@ -1,0 +1,60 @@
+/* Paragraph styles --------------------------------------------- */
+
+p {
+	color: #743e3e;
+}
+
+/* Div styles --------------------------------------------------- */
+
+div.placeholder {
+	width: 100%;
+	padding-top: 30px;
+	text-align: center;
+}
+
+div.placeholder p {
+	font-size: 24px;
+}
+
+/* Navbar styles ------------------------------------------------ */
+
+.navbar-custom {
+	background-color: #d92626;
+	border: none;
+}
+
+.navbar-custom a {
+	color: #f7d4d4;
+}
+
+/* Ensures proper behavior of navbar links on hover */
+.navbar-custom li:hover a,
+.navbar-custom li:active a {
+	background-color: inherit;
+	color: #fff;
+}
+
+/* Inactive/disabled navbar links */
+.navbar-custom a.inactive,
+.navbar-custom a:hover.inactive {
+	color: #e05252;
+	cursor: default;
+}
+
+/* Footer styles ------------------------------------------------- */
+
+.footer-custom {
+	padding: 8px;
+	text-align: center;
+	background-color: #ff8000;
+}
+
+.footer-custom small,
+.footer-custom small a {
+	color: #fff3e6;
+}
+
+.footer-custom a:hover,
+.footer-custom a:active {
+	color: #fff;
+}
