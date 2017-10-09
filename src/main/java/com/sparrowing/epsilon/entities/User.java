@@ -5,16 +5,37 @@ import java.util.List;
 
 public class User {
 	
+	/*
+	  int             id         Unique User id
+	  String          username   Username of user
+	  String          pwHash     The user's hashed password
+	  LocalDateTime   joined     Date and time that user joined
+	  List<Playlist>  playlists  Playlists owned by user
+	  List<Song>      songs      User's song entries
+	 */
+	
+	// PROPERTIES --------------------------------------------------------
+	
 	private int id;
+	
 	private String username;
+	
 	private String pwHash;
 	
 	private LocalDateTime joined;
 	
-	// Owned playlists
 	private List<Playlist> playlists;
 	
-	// Song entries
 	private List<Song> songs;
+	
+	// CONSTRUCTORS ------------------------------------------------------
+	
+	// PRIVATE METHODS ---------------------------------------------------
+	
+	// PUBLIC STATIC METHODS ---------------------------------------------
+	
+	// PUBLIC INSTANCE METHODS -------------------------------------------
+	
+	// GETTERS AND SETTERS -----------------------------------------------
 	
 }

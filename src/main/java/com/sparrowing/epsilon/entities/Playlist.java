@@ -1,26 +1,40 @@
 package com.sparrowing.epsilon.entities;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
 public class Playlist {
 	
+	/*
+	  int            id           Unique Playlist id
+	  String         name         Display name of playlist
+	  LocalDateTime  created      Creation time of playlist
+	  LocalDateTime  updated      Last update time of playlist
+	  Group          holderGroup  Base-level group of playlist
+	  User           creator      User that created the playlist
+	 */
+	
+	// PROPERTIES --------------------------------------------------------
+	
 	private int id;
+	
 	private String name;
 	
 	private LocalDateTime created;
+	
 	private LocalDateTime updated;
 	
-	// IMMEDIATE child subgroups
-	private List<Group> groups;
-	// IMMEDIATE songs
-	private List<Song> songs;
+	private Group holderGroup;
 	
 	private User creator;
 	
-	// private String description;
+	// CONSTRUCTORS ------------------------------------------------------
 	
-	// private List<User> allowedEdit;
-	// private List<User> allowedView;
+	// PRIVATE METHODS ---------------------------------------------------
+	
+	// PUBLIC STATIC METHODS ---------------------------------------------
+	
+	// PUBLIC INSTANCE METHODS -------------------------------------------
+	
+	// GETTERS AND SETTERS -----------------------------------------------
 
 }

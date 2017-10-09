@@ -2,17 +2,36 @@ package com.sparrowing.epsilon.entities;
 
 public class Song {
 	
+	/*
+	  int     id              Unique Song id
+	  String  name            Display name of song
+	  String  artist          Display artist of song
+	  String  youtubeVideoId  Corresponding YouTube video id
+	  User    user            User that created this song entry
+	  Group   group           Parent group that this song is in
+	 */
+	
+	// PROPERTIES --------------------------------------------------------
+	
 	private int id;
+	
 	private String name;
+	
 	private String artist;
 	
-	// ID of the corresponding YouTube video
 	private String youtubeVideoId;
 	
-	// User that created this song entry
 	private User user;
 	
-	// Parent group the song is in
 	private Group group;
-
+	
+	// CONSTRUCTORS ------------------------------------------------------
+	
+	// PRIVATE METHODS ---------------------------------------------------
+	
+	// PUBLIC STATIC METHODS ---------------------------------------------
+	
+	// PUBLIC INSTANCE METHODS -------------------------------------------
+	
+	// GETTERS AND SETTERS -----------------------------------------------
 }

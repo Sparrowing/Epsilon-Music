@@ -4,17 +4,34 @@ import java.util.List;
 
 public class Group {
 	
+	/*
+	  int          i          Unique Group id
+	  Playlist     playlist   Playlist the group exists within
+	  Group        parent     Immediate parent group (if applicable)
+	  List<Group>  subgroups  Any IMMEDIATE child groups
+	  List<Song>   songs      Any IMMEDIATE songs in this group
+	 */
+	
+	// PROPERTIES --------------------------------------------------------
+	
 	private int id;
 	
-	// Playlist the group exists within
 	private Playlist playlist;
 	
-	// Immediate parent if applicable
 	private Group parent;
 	
-	// Any IMMEDIATE child groups
 	private List<Group> subgroups;
-	// Any IMMEDIATE songs in this group
+	
 	private List<Song> songs;
+	
+	// CONSTRUCTORS ------------------------------------------------------
+	
+	// PRIVATE METHODS ---------------------------------------------------
+	
+	// PUBLIC STATIC METHODS ---------------------------------------------
+	
+	// PUBLIC INSTANCE METHODS -------------------------------------------
+	
+	// GETTERS AND SETTERS -----------------------------------------------
 
 }
