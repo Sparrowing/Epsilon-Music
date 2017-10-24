@@ -50,7 +50,8 @@ div.placeholder p {
 }
 
 .footer-custom small,
-.footer-custom small a {
+.footer-custom small a,
+.footer-custom p {
 	color: #fff3e6;
 }
 
